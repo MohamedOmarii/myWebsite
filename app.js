@@ -1,6 +1,5 @@
 const path = require('path')
 const http = require('http')
-var bodyParser = require('body-parser')
 const express = require('express')
 const hbs = require('express-handlebars')
 const router = require('./routes/index.js')
@@ -11,7 +10,6 @@ app.set('port', process.env.PORT || 4000)
 app.set('views', path.join(__dirname, './', 'views'))
 app.set('view engine', 'hbs')
 
-app.use(bodyParser.json())
 app.use(router)
 app.use(express.static(path.join(__dirname, './', 'public')))
 

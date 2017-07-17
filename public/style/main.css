@@ -1,0 +1,11 @@
+body {
+  background-color: skyblue;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: gray;
+}
