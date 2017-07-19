@@ -43,7 +43,6 @@ p{
   color: black;
 }
 .projects {
-  border: 2px solid black;
   padding: 5px;
   margin-top: 20px;
 }
@@ -54,14 +53,22 @@ p{
 .project1:hover{
   background-color: #659df7;
 }
-.p-project {
-  display: none;
-}
-.about {
-  margin-top: 50px;
+.address {
   color: #659df7;
   font-weight: bold;
 }
 .aboutDiv h2{
   color:black;
+}
+.SkillsDiv{
+  margin-top: 100px;
+}
+#address{
+  margin-top: 80px;
+}
+.footer{
+  background: #659df7;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 40px;
 }
