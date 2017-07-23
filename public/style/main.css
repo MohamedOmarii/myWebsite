@@ -64,11 +64,16 @@ p{
   margin-top: 100px;
 }
 #address{
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .footer{
   background: #659df7;
   overflow: hidden;
   text-align: center;
   padding-top: 40px;
+}
+.divPro1{
+  border: 2px dotted #659df7;
+  border-radius: 5px;
+  padding: 3px;
 }
