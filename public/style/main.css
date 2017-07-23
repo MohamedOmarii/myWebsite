@@ -63,7 +63,13 @@ p{
 .SkillsDiv{
   margin-top: 100px;
 }
-#address{
+#about{
+  margin-top: 60px;
+}
+#project{
+  margin-top: 60px;
+}
+#skill{
   margin-top: 60px;
 }
 .footer{
