@@ -51,7 +51,9 @@ p{
   color: black;
 }
 .project1:hover{
-  background-color: #659df7;
+  margin: 6px;
+  color: #659df7;
+  background-color: black;
 }
 .address {
   color: #659df7;
@@ -78,8 +80,9 @@ p{
   text-align: center;
   padding-top: 40px;
 }
-.divPro1{
-  border: 2px dotted #659df7;
-  border-radius: 5px;
-  padding: 3px;
+.myCv{
+  color: #659df7;
+}
+.myCv:hover{
+  color: gray;
 }
