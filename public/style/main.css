@@ -48,12 +48,10 @@ p{
 }
 .project1{
   font-weight: bold;
-  color: black;
 }
 .project1:hover{
   margin: 6px;
   color: #659df7;
-  background-color: black;
 }
 .address {
   color: #659df7;
